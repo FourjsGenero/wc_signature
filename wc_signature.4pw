@@ -54,9 +54,9 @@
         <File filePath="webcomponents/wc_signature/wc_signature.html"/>
         <File filePath="webcomponents/wc_signature/wc_signature.js"/>
       </VirtualFolder>
-      <File filePath="signature.4gl"/>
-      <File filePath="signature.per"/>
-      <File filePath="signature_view.per"/>
+      <File filePath="wc_signature_test.4gl"/>
+      <File filePath="wc_signature_test.per"/>
+      <File filePath="wc_signature_test_view.per"/>
     </Application>
   </Group>
 </Project>
