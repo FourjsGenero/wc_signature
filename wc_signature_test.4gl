@@ -8,7 +8,7 @@ DEFINE signature STRING
     OPTIONS INPUT WRAP
     CALL STARTLOG("signature.log")
 
-    OPEN WINDOW signature WITH FORM "signature" ATTRIBUTES(TEXT="Signature Input")
+    OPEN WINDOW signature WITH FORM "wc_signature_test" ATTRIBUTES(TEXT="Signature Input")
     INPUT BY NAME signature WITHOUT DEFAULTS ATTRIBUTES(UNBUFFERED, ACCEPT=FALSE, CANCEL=FALSE)
     
         ON ACTION clear ATTRIBUTES(TEXT="Clear Signature")
@@ -53,7 +53,7 @@ DEFINE filename STRING
     END IF
     
     -- displays the last saved signature
-    OPEN WINDOW view WITH FORM "signature_view" ATTRIBUTES(STYLE="dialog", TEXT="View Signature")
+    OPEN WINDOW view WITH FORM "wc_signature_test_view" ATTRIBUTES(STYLE="dialog", TEXT="View Signature")
     DISPLAY filename TO img
     MENU ""
         ON ACTION close
