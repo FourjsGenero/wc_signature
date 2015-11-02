@@ -46,8 +46,8 @@
   </Settings>
   <LanguageList version="1.0"/>
   <PlatformList version="1.0"/>
-  <Group environment="value:FGLIMAGEPATH=./webcomponents/wc_signature" label="signature" language="Genero" targetDirectory="$(ProjectDir)">
-    <Application binaryName="signature" id="-773444256" label="signature">
+  <Group environment="value:FGLIMAGEPATH=./webcomponents/wc_signature" label="wc_signature" language="Genero" targetDirectory="$(ProjectDir)">
+    <Application binaryName="wc_signature" id="-773444256" label="wc_signature">
       <VirtualFolder label="import">
         <File filePath="webcomponents/wc_signature/app.js"/>
         <File excludeFromLink="true" filePath="wc_signature.4gl"/>
