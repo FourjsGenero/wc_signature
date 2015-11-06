@@ -17,8 +17,12 @@ function resizeCanvas() {
 
 window.onresize = resizeCanvas;
 resizeCanvas();
-
-signaturePad = new SignaturePad(canvas);
+ 
+signaturePad = new SignaturePad(canvas, {
+    // example settings TODO, how can we define in 4gl????, or perhaps in .per  as properties
+    penColor: "rgb(66, 133, 244)",
+    backgroundColor: "rgb(255,255,0)"
+});
 
 // added these functions to be called from 4gl front-call
 signaturePadClear = function() {

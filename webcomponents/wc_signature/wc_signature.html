@@ -3,18 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script LANGUAGE="JavaScript">
-     onICHostReady = function(version) {
-         if ( version != 1.0 )
+<meta Http-Equiv="Cache-Control" content="no-cache"/>
+<meta Http-Equiv="Pragma" content="no-cache"/>
+<meta Http-Equiv="Expires" content="0"/>
+<script language="JavaScript">
+    onICHostReady = function(version) {
+        if ( version != 1.0 )
             alert('Invalid API version');
     }
 </script>
 </head>
 
-<body onselectstart="return false" style="height: 100%; width: 100%">
+<body onselectstart="return false" style="height: 100%; width: 100%;">
     <div id="signature-pad" class="m-signature-pad">
-        <div class="m-signature-pad--body" style="background-color: yellow">
-            <canvas width="1000" height="1000"></canvas>
+        <div id="signature-pad-body" class="m-signature-pad--body" >
+            <canvas></canvas>
         </div>
     </div>
     <script src="wc_signature.js"></script>
