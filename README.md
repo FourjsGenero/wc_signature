@@ -5,7 +5,7 @@ Thanks to Francecs Vilaubi for the WebComponent which I've tweaked, renamed, and
 
 Quick instructions before something more formal.
 
-Test program should download and run without changes.  Tested with GDC, waiting for fix to a GAS issue before test other devices.
+Test program should download and run without changes.  
 
 To use in your apps, place the html/js files into your webcomponents directory
 
