@@ -10,6 +10,9 @@ function resizeCanvas() {
     // some browsers report devicePixelRatio as less than 1
     // and only part of the canvas is cleared then.
     var ratio =  Math.max(window.devicePixelRatio || 1, 1);
+    ratio = 1;
+    // TODO Not sure what to do above.  On Mac window.devicePixelRatio returns 2
+    // and signature not drawn accurately, setting to 1 'works'
     canvas.width = canvas.offsetWidth * ratio;
     canvas.height = canvas.offsetHeight * ratio;
     canvas.getContext("2d").scale(ratio, ratio);
