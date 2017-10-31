@@ -1,6 +1,8 @@
 # wc_signature
 A Genero Web Component for the input and display of signatures
 
+![Signature](https://user-images.githubusercontent.com/13615993/32203487-61a1a454-be48-11e7-9383-671ad50242ba.png)
+
 Thanks to Francecs Vilaubi for the WebComponent which I've tweaked, renamed, and added the 4gl wrapper.
 
 Quick instructions before something more formal.
