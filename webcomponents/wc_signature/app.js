@@ -18,7 +18,7 @@ function resizeCanvas() {
     canvas.getContext("2d").scale(ratio, ratio);
 }
 
-window.onresize = resizeCanvas;
+window.onresize = resizeCanvas();
 resizeCanvas();
  
 signaturePad = new SignaturePad(canvas, {
