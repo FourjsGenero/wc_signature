@@ -6,6 +6,8 @@ DEFINE signature STRING
 
     OPTIONS FIELD ORDER FORM
     OPTIONS INPUT WRAP
+
+    CLOSE WINDOW SCREEN
     CALL STARTLOG("signature.log")
 
     OPEN WINDOW signature WITH FORM "wc_signature_test" ATTRIBUTES(TEXT="Signature Input")
